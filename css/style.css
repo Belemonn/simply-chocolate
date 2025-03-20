@@ -55,7 +55,7 @@ h6 {
 
 .header-menu {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .header-logo-italic {
@@ -72,6 +72,7 @@ h6 {
 
 .header-menu-list {
   display: flex;
+  gap: 24px;
 }
 
 .header {
@@ -79,15 +80,11 @@ h6 {
   padding-bottom: 28px;
 }
 
-.header-container {
-  display: flex;
-  align-items: center;
-}
-
 /*========================= Херо Секція ===================================*/
 .hero {
   background-color: #1e1823;
   border-radius: 30px;
+  margin-bottom: 72px;
 }
 
 .hero-title {
@@ -96,18 +93,29 @@ h6 {
   line-height: 1.21;
   letter-spacing: -0.03em;
   color: #fff;
+  max-width: 484px;
+  margin-bottom: 32px;
 }
 
 .hero-btn {
   font-weight: 600;
   font-size: 14px;
   color: #fff;
+  border-radius: 100px;
+  padding: 14px 40px;
+  background-color: #fd9222;
+  border: none;
+  cursor: pointer;
 }
 
 .hero-anchor-link {
   font-weight: 600;
   font-size: 14px;
   color: #fff;
+  border-radius: 100px;
+  background-color: transparent;
+  padding: 14px 40px;
+  border: 1px solid #fff;
 }
 
 .hero-scroll-link {
@@ -117,6 +125,11 @@ h6 {
   letter-spacing: -0.03em;
   color: #fff;
 }
+
+.hero-wrapper {
+  padding: 375px 40px 40px 40px;
+}
+
 /*=============================== Features Section ========================================================*/
 .features {
   background-color: #1e1823;
